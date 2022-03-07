@@ -1,0 +1,26 @@
+
+.posts {
+  width: fit-content;
+  margin: auto;
+  line-height: 0;
+  -webkit-column-count: 6;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 6;
+  -moz-column-gap: 10px;
+  column-count: 6;
+  column-gap: 10px;
+}
+
+.postDiv {
+  width: 240px;
+  height: auto !important;
+  margin-bottom: 10px;
+  max-height: 300px;
+  overflow: hidden;
+}
+.postDiv img {
+  width: 100%;
+}
+.postVideo {
+  width: 100%;
+}
